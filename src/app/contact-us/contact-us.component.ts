@@ -12,15 +12,15 @@ export class ContactUsComponent implements OnInit {
   constructor(private userProfileService: UserProfileService) { }
 
   ngOnInit() {
-    this.getContactSubmission();
+    this.getContactFromObserv();
     this.itWorks();
   }
-  itWorks(){
+  itWorks() {
     console.log(this.contactUs);
   }
-  getContactSubmission(){
+  getContactFromObserv() {
     this.contactUs = {
-      reason: '8 Mayfield Hill',
+      reason: 'y',
       city: 'Long Beach',
       first_name: 'Theresa',
       last_name: 'Fiddy',

@@ -31,5 +31,5 @@ export class UserProfileComponent implements OnInit {
       state: 'California',
       zipcode: '90831'
     };
-    }
+  }
 }
